@@ -1,0 +1,80 @@
+<marquee behavior="#" direction="left" scrollamount="20" >
+    <div style="text-align: center">
+        <h1>Bienvenue à vous</h1>
+    </div>
+</marquee>
+
+<div>
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <!--class="navbar navbar-expand-lg navbar-dark bg-dark"-->
+
+    <!-- Navbar brand -->
+    <a class="navbar-brand" href="#">######</a>
+
+    <!-- Collapsible content -->
+    <button class="navbar-toggler" type="button" (click)="toggleNavbar()">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+        <!-- Links -->
+    <div class="collapse navbar-collapse" [ngClass]="{ 'show': navbarOpen }">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link waves-light" WavesEffect href="" routeurLink="/">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link waves-light" WavesEffect href="">About</a>
+            </li>
+            
+
+            <!-- Dropdown -->
+            <li class="nav-item dropdown" >
+                <a   class="btn btn-primary dropdown-toggle mr-1" type=""  WavesEffect aria-haspopup="true"
+                aria-expanded="false" data-toggle="dropdown" >
+                Nos Services<!-- <span class="caret"></span> --></a>
+                <div class="dropdown-menu " role="menu">
+                    <a class="dropdown-item" WavesEffect href="#">Action</a>
+                    <a class="dropdown-item" WavesEffect href="#">Another action</a>
+                    <a class="dropdown-item" WavesEffect href="#">Something else here</a>
+                    <div class= "dropdown-divider"></div>
+                    <a class="dropdown-item " WavesEffect href="#">Separated link</a>
+                </div>
+
+            </li>
+            <li class="nav-item">
+                    <a class="nav-link waves-light" WavesEffect href="">Contact-us</a>
+                </li>
+
+        </ul>
+        <!-- Links -->
+
+<!-- Search form -->
+        <form class="form-inline waves-light" WavesEffect>
+            <div class="md-form my-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search">
+            </div>
+        </form>
+    </div>
+    <!-- Collapsible content -->
+
+
+
+
+</nav>
+<!--/.Navbar-->
+
+</div>
+<!-- <div class="collapse navbar-collapse show">
+        <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Item 1</a>
+                </li>
+            
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Item 2</a>
+                </li>
+              </ul>
+
+</div> -->
+    
